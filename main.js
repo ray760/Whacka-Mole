@@ -67,7 +67,7 @@
 
   /* Adds class for mole up and how long it shoul stay up */
   const showaMole = () => {
-    const timer = moleTimer(750, 1000);
+    const timer = moleTimer(500, 1250);
     const mole = whichMole();
 
     mole.classList.add('up');

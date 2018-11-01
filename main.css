@@ -1,0 +1,72 @@
+body {
+  background: oldlace;
+  margin: 0;
+}
+#container {
+  margin: 0 auto;
+  padding:  5%;
+  position: relative;
+}
+
+h1,h2 {
+  font-family: 'Comic Sans MS', 'Comic Sans', Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+.score {
+  background: rgba(245, 219, 171, .5);
+  padding: 0 .5rem;
+}
+
+.game-message {
+  box-sizing: border-box;
+  height: 33px;
+} 
+
+.buttons {
+  text-align: center;
+}
+
+.moles {
+  text-align: justify;
+  margin: auto;
+  max-width: 835px;
+  min-width: 480px;
+}
+
+.mole-container {
+  display: inline-block;
+  height: 230px;
+  margin-top: 4rem;
+  overflow: hidden;
+  position: relative;
+  width: 32%;
+}
+
+.dirt {
+  bottom: -20px;
+  position: absolute;
+  width: 100%;
+}
+
+.mole {
+  bottom: -230px;
+  cursor: pointer;
+  position: absolute;
+  transition: all 0.5s;
+  width: 90%;
+}
+
+.up {
+  bottom: 0px;
+}
+
+@media screen and (max-width: 640px) {
+  .mole-container {
+    margin-top: 2rem;
+  }
+}
